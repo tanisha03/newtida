@@ -1,0 +1,59 @@
+.p1 {
+  width: 540px;
+  height: 300px;
+  max-height: 100%;
+  max-width: 100%;
+  padding-right: -20px;
+  outline: 2px #ffffff dashed;
+  outline-offset: -10px;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.p2 {
+  max-height: 100%;
+  max-width: 100%;
+  width: 255px;
+  height: 300px;
+  /*margin-top: 20px;*/
+  outline: 2px #ffffff dashed;
+  outline-offset: -10px;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.p3 {
+  max-height: 100%;
+  max-width: 100%;
+  /*width: 550px;
+  height: 620px;*/
+  outline: 2px #ffffff dashed;
+  outline-offset: -10px;
+
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.p1:hover,
+.p2:hover,
+.p3:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.box {
+  overflow: hidden;
+}
+.col {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
