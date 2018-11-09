@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Photo from "./main_page/grid";
+import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import Photo from "./grid";
+import Display from "./product_display/display.js";
+const routing = (
+  <Router>
+    <div>
+      <Route exact path="/" component={Photo} />
+      <Route path="/tshirts" component={Display} />
+    </div>
+  </Router>
+);
+ReactDOM.render(routing, document.getElementById("root"));
 
-ReactDOM.render(<Photo />, document.getElementById("root"));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Example from "./products.js";
 import { Container, Row, Col } from "reactstrap";
-import Top from "../navbar.js";
+import Top from "./navbar.js";
 import Car from "./carousel.js";
 import "./grid.css";
 
