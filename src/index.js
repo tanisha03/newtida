@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollToTopRoute from "./scroll.js";
 
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import Photo from "./grid";
@@ -10,7 +11,7 @@ const routing = (
   <Router>
     <div>
       <Route exact path="/" component={Photo} />
-      <Route path="/tshirts" component={Display} />
+      <ScrollToTopRoute path="/tshirts" component={Display} />
     </div>
   </Router>
 );

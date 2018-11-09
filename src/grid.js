@@ -4,6 +4,8 @@ import { Container, Row, Col } from "reactstrap";
 import Top from "./navbar.js";
 import Car from "./carousel.js";
 import "./grid.css";
+import Social from "./social.js";
+import Footer from "./footer.js";
 
 export default class Photo extends Component {
   render() {
@@ -11,10 +13,10 @@ export default class Photo extends Component {
       <div>
         <Top />
         <Car />
-        <div className="txt">---------PRODUCTS----------</div>
+        <div className="txt">---------COLLECTION----------</div>
         <Example />
-        <Example />
-        <Example />
+        <Social />
+        <Footer />
       </div>
     );
   }

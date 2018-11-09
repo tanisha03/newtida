@@ -13,7 +13,7 @@ export default class Example extends React.Component {
     return (
       <Container>
         <Row>
-          <Col xs="6" sm="6" className="col">
+          <Col xs="12" sm="6" className="col">
             <div className="box">
               <Link to="/tshirts">
                 <img src={p1} className="p1" />
@@ -38,7 +38,7 @@ export default class Example extends React.Component {
             </Row>
           </Col>
 
-          <Col sm="6" className="col">
+          <Col xs="12" sm="6" className="col">
             <div className="box">
               <Link to="/tshirts">
                 <img src={p3} className="p3" />
