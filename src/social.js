@@ -6,7 +6,7 @@ export default class Social extends Component {
   render() {
     return (
       <div>
-        <Container /*style={{ marginLeft: "290px" }}*/>
+        <Container>
           <Row>
             <Col xs="3">
               <div style={{ textAlign: "center" }}>

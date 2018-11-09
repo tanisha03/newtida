@@ -4,10 +4,10 @@ import { Container, Row, Col } from "reactstrap";
 export default class Footer extends Component {
   render() {
     return (
-      <div style={{ background: "pink" }}>
+      <div style={{ background: "#c0c5ce", marginTop: 15 }}>
         <Container>
           <Row>
-            <Col sm="4">
+            <Col xs="4" style={{ marginTop: 20 }}>
               <div style={{ textAlign: "center" }}>
                 <h3>NEED HELP</h3>
                 <div>fdf</div>
@@ -15,7 +15,7 @@ export default class Footer extends Component {
                 <div>fdf</div>
               </div>
             </Col>
-            <Col sm="4">
+            <Col xs="4" style={{ marginTop: 20 }}>
               <div style={{ textAlign: "center" }}>
                 <h3>NEED HELP</h3>
                 <div>fdf</div>
@@ -23,7 +23,7 @@ export default class Footer extends Component {
                 <div>fdf</div>
               </div>
             </Col>
-            <Col sm="4">
+            <Col xs="4" style={{ marginTop: 20 }}>
               <div style={{ textAlign: "center" }}>
                 <h3>NEED HELP</h3>
                 <div>fdf</div>
