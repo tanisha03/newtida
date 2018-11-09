@@ -5,7 +5,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Photo from "./grid.js";
+import Photo from "./main_page/grid";
 
 ReactDOM.render(<Photo />, document.getElementById("root"));
 
