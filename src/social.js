@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { SocialIcon } from "react-social-icons";
 import { Container, Row, Col } from "reactstrap";
-import "./social.css";
 
 export default class Social extends Component {
   render() {

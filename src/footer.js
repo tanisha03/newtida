@@ -8,22 +8,28 @@ export default class Footer extends Component {
         <Container>
           <Row>
             <Col sm="4">
-              <h3>NEED HELP</h3>
-              <div>fdf</div>
-              <div>fdf</div>
-              <div>fdf</div>
+              <div style={{ textAlign: "center" }}>
+                <h3>NEED HELP</h3>
+                <div>fdf</div>
+                <div>fdf</div>
+                <div>fdf</div>
+              </div>
             </Col>
             <Col sm="4">
-              <h3>OUR TEAM</h3>
-              <div>fdf</div>
-              <div>fdf</div>
-              <div>fdf</div>
+              <div style={{ textAlign: "center" }}>
+                <h3>NEED HELP</h3>
+                <div>fdf</div>
+                <div>fdf</div>
+                <div>fdf</div>
+              </div>
             </Col>
             <Col sm="4">
-              <h3>CONTACT US</h3>
-              <div>fdf</div>
-              <div>fdf</div>
-              <div>fdf</div>
+              <div style={{ textAlign: "center" }}>
+                <h3>NEED HELP</h3>
+                <div>fdf</div>
+                <div>fdf</div>
+                <div>fdf</div>
+              </div>
             </Col>
           </Row>
         </Container>
