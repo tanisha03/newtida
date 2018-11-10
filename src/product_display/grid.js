@@ -10,7 +10,7 @@ export default class Grid extends Component {
   render() {
     return (
       <div>
-        <Container fluid>
+        <Container fluid style={{ marginBottom: 50 }}>
           <StickyContainer>
             <Row>
               <Sticky>

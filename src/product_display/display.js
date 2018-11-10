@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Top from "./navbar.js";
 import Grid from "./grid.js";
+import Social from "./social.js";
+import Footer from "./footer.js";
 
 export default class Display extends Component {
   render() {
@@ -21,6 +23,8 @@ export default class Display extends Component {
         </div>
         <hr />
         <Grid />
+        <Social />
+        <Footer />
       </div>
     );
   }

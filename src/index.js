@@ -8,7 +8,7 @@ import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import Photo from "./grid";
 import Display from "./product_display/display.js";
 
-import Disp from "./individual_display/disp.js";
+import Disp from "./individual_product/disp.js";
 const routing = (
   <Router>
     <div>
