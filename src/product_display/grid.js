@@ -3,6 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Nav, NavItem, NavLink, Button } from "reactstrap";
 import p1 from "./sample.jpg";
 import "./grid.css";
+import { StickyContainer, Sticky } from "react-sticky";
 
 export default class Grid extends Component {
   render() {
@@ -11,22 +12,11 @@ export default class Grid extends Component {
         <Container fluid>
           <Row>
             <Col sm="2">
-              <Nav vertical>
-                <NavItem active>
-                  <NavLink href="#">tshirts</NavLink>
-                </NavItem>
-                <NavItem active>
-                  <NavLink href="#">bottoms</NavLink>
-                </NavItem>
-                <NavItem active>
-                  <NavLink href="#">shirts</NavLink>
-                </NavItem>
-                <NavItem active>
-                  <NavLink disabled href="#">
-                    Disabled Link
-                  </NavLink>
-                </NavItem>
-              </Nav>
+              <StickyContainer>
+                <Sticky>
+                  <div>abc</div>
+                </Sticky>
+              </StickyContainer>
             </Col>
             <Col sm="10">
               <Row>
