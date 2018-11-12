@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Nav, NavItem, NavLink, Button } from "reactstrap";
-import p1 from "./sample.jpg";
+import p1 from "./1.jpg";
 import "./grid.css";
 import { StickyContainer, Sticky } from "react-sticky";
 import { Link } from "react-router-dom";

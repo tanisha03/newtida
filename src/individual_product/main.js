@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
-import p1 from "./sample.jpg";
+import p1 from "./1.jpg";
 
 export default class Grid extends Component {
   render() {
