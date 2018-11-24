@@ -76,17 +76,6 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
               </Row>
               <Row>
                 <Col className="pic">
@@ -122,30 +111,8 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
               </Row>
               <Row>
-                <Col className="pic">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
                 <Col className="pic">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
