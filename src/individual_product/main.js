@@ -8,10 +8,10 @@ export default class Grid extends Component {
       <div>
         <Container style={{ marginBottom: 50 }}>
           <Row>
-            <Col xs="6">
+            <Col xs="12" sm="6">
               <img src={p1} style={{ width: 500 }} />
             </Col>
-            <Col xs="6">
+            <Col xs="12" sm="6">
               <h3>Printed Tshirt</h3>
               <h5>Rs. 1000</h5>
               <p>
