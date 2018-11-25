@@ -30,6 +30,16 @@ export default class Grid extends Component {
                 dfuis udy hfyiusd yhfs skfh fiusdd hfsd skhfusd sukhfsf dfhds
                 shfjd sdhdfj sehfush
               </p>
+              <h4>ABOUT THE PRODUCT</h4>
+              <p>
+                hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
+                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf
+                jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf
+                jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf
+                jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf
+                hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
+                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf
+              </p>
               <div style={{ marginTop: 30 }}>Apparel size</div>
               <div>
                 <span style={{ marginRight: 20 }}>S</span>

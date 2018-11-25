@@ -10,20 +10,6 @@ export default class Details extends Component {
         <Container>
           <Row>
             <Col>
-              <h4>ABOUT THE PRODUCT</h4>
-              <p>
-                hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
-                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf
-                jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf
-                jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf
-                jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf
-                hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
-                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
               <h4>Ratings and Reviews</h4>
 
               <Row>
