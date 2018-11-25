@@ -21,6 +21,8 @@ export default class Details extends Component {
                 jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf
               </p>
             </Col>
+          </Row>
+          <Row>
             <Col>
               <h4>Ratings and Reviews</h4>
 

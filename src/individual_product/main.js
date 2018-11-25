@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import p1 from "./1.jpg";
+import Details from "./details.js";
+import { StickyContainer, Sticky } from "react-sticky";
 
 export default class Grid extends Component {
   render() {
@@ -9,7 +11,17 @@ export default class Grid extends Component {
         <Container style={{ marginBottom: 50 }}>
           <Row>
             <Col xs="12" sm="6">
-              <img src={p1} style={{ width: 500 }} />
+              <StickyContainer>
+                <Sticky>
+                  {({ style }) => (
+                    <div style={style}>
+                      <div style={{ height: 50 }} />
+                      <img src={p1} style={{ width: 500 }} />
+                    </div>
+                  )}
+                </Sticky>
+                <div style={{ height: 500 }} />
+              </StickyContainer>
             </Col>
             <Col xs="12" sm="6">
               <h3>Printed Tshirt</h3>
@@ -45,6 +57,7 @@ export default class Grid extends Component {
               <hr />
               <div>ygda jgsd yas gds djadgd</div>
               <div>ygda jgsd yas gds djadgd</div>
+              <Details />
             </Col>
           </Row>
         </Container>
