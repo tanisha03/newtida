@@ -68,6 +68,7 @@ class ModalEx extends React.Component {
                   <FormText color="muted">Attach an image</FormText>
                 </FormGroup>
               </Form>
+              <Rating />
             </div>
           </ModalBody>
           <ModalFooter>
