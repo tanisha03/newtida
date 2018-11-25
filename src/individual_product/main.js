@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import p1 from "./1.jpg";
-import Details from "./details.js";
+
 import { StickyContainer, Sticky } from "react-sticky";
+import ModalEx from "./modal.js";
+import Rating from "react-rating";
 
 export default class Grid extends Component {
   render() {
@@ -67,7 +69,44 @@ export default class Grid extends Component {
               <hr />
               <div>ygda jgsd yas gds djadgd</div>
               <div>ygda jgsd yas gds djadgd</div>
-              <Details />
+              <h4 style={{ marginTop: 20 }}>Ratings and Reviews</h4>
+              <Row>
+                <Col xs="6">
+                  <h5>
+                    <Rating initialRating={4.3} readonly />
+                  </h5>
+                </Col>
+                <Col xs="6">
+                  <ModalEx buttonLabel="Give review" />
+                </Col>
+              </Row>
+              <hr />
+              <Rating fractions={2} />
+
+              <div>
+                <h6>heading</h6>
+                <p>
+                  fytfhf ghf ghfhfh hhhhhhhhhhh hhhhhhhd jhjghtdhm gytfgn gjfhgg
+                  nbtfv bftyv nbgfhv jggb bvgfujv hgtfgb nvcftjgnb hytfgv gtgb
+                  bfuyjhb yuhv tjyhgvb{" "}
+                </p>
+              </div>
+              <div>
+                <h6>heading</h6>
+                <p>
+                  fytfhf ghf ghfhfh hhhhhhhhhhh hhhhhhhd jhjghtdhm gytfgn gjfhgg
+                  nbtfv bftyv nbgfhv jggb bvgfujv hgtfgb nvcftjgnb hytfgv gtgb
+                  bfuyjhb yuhv tjyhgvb{" "}
+                </p>
+              </div>
+              <div>
+                <h6>heading</h6>
+                <p>
+                  fytfhf ghf ghfhfh hhhhhhhhhhh hhhhhhhd jhjghtdhm gytfgn gjfhgg
+                  nbtfv bftyv nbgfhv jggb bvgfujv hgtfgb nvcftjgnb hytfgv gtgb
+                  bfuyjhb yuhv tjyhgvb{" "}
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>
