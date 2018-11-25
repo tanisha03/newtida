@@ -35,7 +35,8 @@ export default class Details extends Component {
                 </Col>
               </Row>
               <hr />
-              <Rating />
+              <Rating fractions={2} />
+
               <div>
                 <h6>heading</h6>
                 <p>

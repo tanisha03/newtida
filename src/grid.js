@@ -16,7 +16,9 @@ export default class Photo extends Component {
         <Top />
         <Car />
 
-        <div className="txt">---------COLLECTION----------</div>
+        <div className="txt" style={{ textAlign: "center" }}>
+          -----COLLECTION-----
+        </div>
 
         <Example />
         <Versocial />

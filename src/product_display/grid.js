@@ -12,7 +12,7 @@ export default class Grid extends Component {
       <div>
         <Container fluid style={{ marginBottom: 50 }}>
           <Row>
-            <Col sm="2">
+            <Col xs="2">
               <StickyContainer>
                 <Sticky>
                   {({ style }) => (
@@ -41,9 +41,9 @@ export default class Grid extends Component {
               </StickyContainer>
             </Col>
 
-            <Col sm="10">
+            <Col xs="10">
               <Row>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -54,7 +54,7 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -65,7 +65,7 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -78,7 +78,7 @@ export default class Grid extends Component {
                 </Col>
               </Row>
               <Row>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -89,7 +89,7 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -100,7 +100,7 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -113,7 +113,7 @@ export default class Grid extends Component {
                 </Col>
               </Row>
               <Row>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -124,7 +124,7 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>
@@ -135,7 +135,7 @@ export default class Grid extends Component {
                     ADD TO CART
                   </Button>
                 </Col>
-                <Col className="pic">
+                <Col className="pic" xs="12" sm="4">
                   <Link to="/individual">
                     <img src={p1} className="pic" />
                   </Link>

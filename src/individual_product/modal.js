@@ -42,31 +42,33 @@ class ModalEx extends React.Component {
         >
           <ModalHeader toggle={this.toggle}>Review</ModalHeader>
           <ModalBody>
-            <Form>
-              <FormGroup>
-                <Label for="head">Add a Headline</Label>
-                <Input
-                  type="text"
-                  name="text"
-                  id="head"
-                  placeholder="What's most important to know"
-                />
-              </FormGroup>
-              <FormGroup>
-                <Label for="review">Write your review</Label>
-                <Input
-                  type="text"
-                  name="text"
-                  id="review"
-                  placeholder="What did you like or dislike?"
-                />
-              </FormGroup>
-              <FormGroup>
-                <Label for="exampleFile">File</Label>
-                <Input type="file" name="file" id="exampleFile" />
-                <FormText color="muted">Attach an image</FormText>
-              </FormGroup>
-            </Form>
+            <div>
+              <Form>
+                <FormGroup>
+                  <Label for="head">Add a Headline</Label>
+                  <Input
+                    type="text"
+                    name="text"
+                    id="head"
+                    placeholder="What's most important to know"
+                  />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="review">Write your review</Label>
+                  <Input
+                    type="text"
+                    name="text"
+                    id="review"
+                    placeholder="What did you like or dislike?"
+                  />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="exampleFile">File</Label>
+                  <Input type="file" name="file" id="exampleFile" />
+                  <FormText color="muted">Attach an image</FormText>
+                </FormGroup>
+              </Form>
+            </div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>
