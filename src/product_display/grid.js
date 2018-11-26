@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Nav, NavItem, NavLink, Button } from "reactstrap";
-import p1 from "./1.jpg";
+import p1 from "../1.jpg";
 import "./grid.css";
 import { StickyContainer, Sticky } from "react-sticky";
 import { Link } from "react-router-dom";
@@ -50,7 +50,11 @@ export default class Grid extends Component {
                   <div className="txt1">hsdfkks</div>
                   <div className="txt1">5454</div>
                   <hr />
-                  <Button color="primary" className="txt2">
+                  <Button
+                    color="primary"
+                    className="txt2"
+                    style={{ marginBottom: 30, textAlign: "center" }}
+                  >
                     ADD TO CART
                   </Button>
                 </Col>

@@ -31,8 +31,12 @@ export default class Top extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md" fixed="top">
-          <NavLink href="/">NEWTIDA</NavLink>
+        <Navbar color="primary" light expand="md" /*fixed="top"*/>
+          <NavLink href="/">
+            <span style={{ color: "#020302", fontSize: 30 }}>
+              N E W + I D A
+            </span>
+          </NavLink>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -45,6 +49,7 @@ export default class Top extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
+        <div style={{ width: 100 }} />
       </div>
     );
   }

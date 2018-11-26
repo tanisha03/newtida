@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
-import p1 from "./1.jpg";
+import p1 from "../1.jpg";
 
 import { StickyContainer, Sticky } from "react-sticky";
 import ModalEx from "./modal.js";
 import Rating from "react-rating";
+import Rate from "./rating.js";
 
 export default class Grid extends Component {
   render() {
@@ -22,7 +23,7 @@ export default class Grid extends Component {
                     </div>
                   )}
                 </Sticky>
-                <div style={{ height: 500 }} />
+                <div style={{ height: 800 }} />
               </StickyContainer>
             </Col>
             <Col xs="12" sm="6">
@@ -82,30 +83,34 @@ export default class Grid extends Component {
               </Row>
               <hr />
               <Rating fractions={2} />
-
               <div>
-                <h6>heading</h6>
-                <p>
-                  fytfhf ghf ghfhfh hhhhhhhhhhh hhhhhhhd jhjghtdhm gytfgn gjfhgg
-                  nbtfv bftyv nbgfhv jggb bvgfujv hgtfgb nvcftjgnb hytfgv gtgb
-                  bfuyjhb yuhv tjyhgvb{" "}
-                </p>
-              </div>
-              <div>
-                <h6>heading</h6>
-                <p>
-                  fytfhf ghf ghfhfh hhhhhhhhhhh hhhhhhhd jhjghtdhm gytfgn gjfhgg
-                  nbtfv bftyv nbgfhv jggb bvgfujv hgtfgb nvcftjgnb hytfgv gtgb
-                  bfuyjhb yuhv tjyhgvb{" "}
-                </p>
-              </div>
-              <div>
-                <h6>heading</h6>
-                <p>
-                  fytfhf ghf ghfhfh hhhhhhhhhhh hhhhhhhd jhjghtdhm gytfgn gjfhgg
-                  nbtfv bftyv nbgfhv jggb bvgfujv hgtfgb nvcftjgnb hytfgv gtgb
-                  bfuyjhb yuhv tjyhgvb{" "}
-                </p>
+                <Rate
+                  title="nice quality"
+                  user="abc"
+                  text="hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
+                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf
+                jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf
+                jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf
+                jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf"
+                />
+                <Rate
+                  title="nice quality"
+                  user="abc"
+                  text="hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
+                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf
+                jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf
+                jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf
+                jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf"
+                />
+                <Rate
+                  title="nice quality"
+                  user="abc"
+                  text="hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf
+                jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf
+                jhjhsbfhjbf jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf
+                jhdshbfjhbfjhdhfbjhbffkdkbf hdfddhdf fhjdbfjh bfjhbf jhjhsbfhjbf
+                jhfhjf jhfkkf jhdfdfjhbf jhjbfjhbf jhdshbfjhbfjhdhfbjhbffkdkbf"
+                />
               </div>
             </Col>
           </Row>
