@@ -5,6 +5,7 @@ import p1 from "../1.jpg";
 import "./grid.css";
 import { StickyContainer, Sticky } from "react-sticky";
 import { Link } from "react-router-dom";
+import Products from "./product.js";
 
 export default class Grid extends Component {
   render() {
@@ -42,115 +43,7 @@ export default class Grid extends Component {
             </Col>
 
             <Col xs="10">
-              <Row>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button
-                    color="primary"
-                    className="txt2"
-                    style={{ marginBottom: 30, textAlign: "center" }}
-                  >
-                    ADD TO CART
-                  </Button>
-                </Col>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-              </Row>
-              <Row>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-              </Row>
-              <Row>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-                <Col className="pic" xs="12" sm="4">
-                  <Link to="/individual">
-                    <img src={p1} className="pic" />
-                  </Link>
-                  <div className="txt1">hsdfkks</div>
-                  <div className="txt1">5454</div>
-                  <hr />
-                  <Button color="primary" className="txt2">
-                    ADD TO CART
-                  </Button>
-                </Col>
-              </Row>
+              <Products />
             </Col>
           </Row>
         </Container>

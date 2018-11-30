@@ -44,7 +44,7 @@ export default class Top extends React.Component {
                 <NavLink href="/tshirts">Products</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/">Cart</NavLink>
+                <NavLink href="/cart">Cart</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
