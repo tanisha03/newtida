@@ -7,29 +7,25 @@ export default class Social extends Component {
     return (
       <div>
         <Container>
-          <Row>
+          <Row style={{}}>
             <Col xs="3">
               <div style={{ textAlign: "center" }}>
                 <SocialIcon url="http://twitter.com" />
-                <div>TWIITER</div>
               </div>
             </Col>
             <Col xs="3">
               <div style={{ textAlign: "center" }}>
                 <SocialIcon url="http://instagram.com" />
-                <div>INSTAGRAM</div>
               </div>
             </Col>
             <Col xs="3">
               <div style={{ textAlign: "center" }}>
                 <SocialIcon url="http://facebook.com" />
-                <div>FACEBOOK</div>
               </div>
             </Col>
             <Col xs="3">
               <div style={{ textAlign: "center" }}>
                 <SocialIcon url="http://snapchat.com" />
-                <div>SNAPCHAT</div>
               </div>
             </Col>
           </Row>

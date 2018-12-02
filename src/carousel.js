@@ -96,6 +96,7 @@ class Car extends Component {
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
+        style={{ marginRight: 200 }}
       >
         <CarouselIndicators
           items={items}

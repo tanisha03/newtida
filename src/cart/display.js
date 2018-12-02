@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Top from "../navbar.js";
+import { Top } from "../navbar.js";
 import Footer from "../footer.js";
 import { Container, Row, Media } from "reactstrap";
 import Cart from "./cart.js";

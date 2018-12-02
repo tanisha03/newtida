@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Example from "./products.js";
-import Top from "./navbar.js";
+import { Top } from "./navbar.js";
 import Car from "./carousel.js";
 import "./grid.css";
 import Social from "./social.js";
 import Versocial from "./versocial.js";
 import Footer from "./footer.js";
+import { Manager, Reference, Popper } from "react-popper";
 
 export default class Photo extends Component {
   render() {
@@ -20,7 +21,18 @@ export default class Photo extends Component {
             background: "#ffffff"
           }}
         />
-        <Car />
+
+        <Manager>
+          <Reference>{({ ref }) => <Car ref={ref} />}</Reference>
+          <Popper placement="bottom">
+            {({ ref, style, placement, arrowProps }) => (
+              <div ref={ref} style={style} data-placement={placement}>
+                <Versocial />
+                <div ref={arrowProps.ref} style={arrowProps.style} />
+              </div>
+            )}
+          </Popper>
+        </Manager>
 
         <div
           style={{
