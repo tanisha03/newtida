@@ -6,19 +6,21 @@ export default class Versocial extends Component {
   render() {
     return (
       <div>
-        <div style={{ marginLeft: 1470, marginTop: 150 }}>
+        <div
+          style={{ marginLeft: 1470, marginTop: 150, background: "#ffffff" }}
+        >
           <SocialIcon url="http://twitter.com" />
         </div>
 
-        <div style={{ textAlign: "right" }}>
+        <div style={{ marginLeft: 1470, background: "#ffffff" }}>
           <SocialIcon url="http://instagram.com" />
         </div>
 
-        <div style={{ textAlign: "right" }}>
+        <div style={{ marginLeft: 1470, background: "#ffffff" }}>
           <SocialIcon url="http://facebook.com" />
         </div>
 
-        <div style={{ textAlign: "right" }}>
+        <div style={{ marginLeft: 1470, background: "#ffffff" }}>
           <SocialIcon url="http://snapchat.com" />
         </div>
       </div>

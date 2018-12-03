@@ -17,7 +17,7 @@ import {
   DropdownItem
 } from "reactstrap";
 
-class Top extends React.Component {
+export default class Top extends React.Component {
   constructor(props) {
     super(props);
 
@@ -59,7 +59,7 @@ class Top extends React.Component {
                   <DropdownItem divider />
                   <DropdownItem>Reset</DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>{" "}
+              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Navbar>
@@ -68,5 +68,3 @@ class Top extends React.Component {
     );
   }
 }
-
-export { Top };
