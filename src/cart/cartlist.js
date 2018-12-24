@@ -5,7 +5,7 @@ const CartList = ({ cartList }) => (
   <Container>
     {cartList.map((cart, index) => (
       <Row>
-        <Media>
+        <Media key={index}>
           <Media left href="#">
             <Media
               object

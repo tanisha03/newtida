@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Social from "./social";
-import { Manager, Reference, Popper } from "react-popper";
 
 import {
   Collapse,
@@ -48,6 +45,9 @@ export default class Top extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/cart">Cart</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/blog">Blog</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

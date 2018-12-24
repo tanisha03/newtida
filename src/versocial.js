@@ -7,7 +7,7 @@ export default class Versocial extends Component {
     return (
       <div>
         <div
-          style={{ marginLeft: 1470, marginTop: 150, background: "#ffffff" }}
+          style={{ marginLeft: 1470, marginTop: -400, background: "#ffffff" }}
         >
           <SocialIcon url="http://twitter.com" />
         </div>
@@ -20,7 +20,9 @@ export default class Versocial extends Component {
           <SocialIcon url="http://facebook.com" />
         </div>
 
-        <div style={{ marginLeft: 1470, background: "#ffffff" }}>
+        <div
+          style={{ marginLeft: 1470, background: "#ffffff", marginBottom: 200 }}
+        >
           <SocialIcon url="http://snapchat.com" />
         </div>
       </div>

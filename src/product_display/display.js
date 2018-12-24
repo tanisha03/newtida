@@ -26,23 +26,13 @@ export default class Display extends Component {
           }}
         />
 
-        <div
-          style={{
-            marginLeft: 100,
-            marginRight: 100,
-            marginBottom: -14,
-            borderRight: "3px solid #020302",
-            borderLeft: "3px solid #020302",
-            backgroundColor: "#ffffff"
-          }}
-        >
-          <div className="header" style={header}>
-            <span style={{ borderBottom: "4px solid #020302" }}> TSHIRTS</span>
-          </div>
-          <hr />
-          <Grid />
-          <Social />
+        <div className="header" style={header}>
+          <span style={{ borderBottom: "4px solid #020302" }}> TSHIRTS</span>
         </div>
+        <hr />
+        <Grid />
+        <Social />
+
         <Footer />
       </div>
     );

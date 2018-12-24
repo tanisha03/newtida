@@ -13,7 +13,7 @@ export default class Grid extends Component {
       <div>
         <Container fluid style={{ marginBottom: 50 }}>
           <Row>
-            <Col xs="2">
+            <Col xs="4" sm="2">
               <StickyContainer>
                 <Sticky>
                   {({ style }) => (
@@ -42,7 +42,7 @@ export default class Grid extends Component {
               </StickyContainer>
             </Col>
 
-            <Col xs="10">
+            <Col xs="8" sm="10">
               <Products />
             </Col>
           </Row>

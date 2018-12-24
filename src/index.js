@@ -11,6 +11,7 @@ import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import Photo from "./grid";
 import Display from "./product_display/display.js";
 import CartDisp from "./cart/display.js";
+import Blog from "./blog/display.js";
 
 import Disp from "./individual_product/disp.js";
 const store = createStore(reducers);
@@ -21,6 +22,7 @@ const routing = (
       <ScrollToTopRoute path="/tshirts" component={Display} />
       <ScrollToTopRoute path="/individual" component={Disp} />
       <ScrollToTopRoute path="/cart" component={CartDisp} />
+      <ScrollToTopRoute path="/blog" component={Blog} />
     </div>
   </Router>
 );
